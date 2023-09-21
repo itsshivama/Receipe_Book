@@ -7,6 +7,8 @@ import { Recipe } from '../recipes.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent {
-  recipes: Recipe[] = [];
+  recipes: Recipe[] = [
+    new Recipe("Some Name", "Some Description", "https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg")
+  ];
 
 }
